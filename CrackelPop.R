@@ -4,7 +4,7 @@
 
 ## R version 3.6.3 (2020-02-29) -- "Holding the Windsock"
 
-## function to determine is numbers are divisible
+## function to determine if numbers are whole
 is.wholenumber <- function(x){
   abs(x - round(x)) == 0}
 
